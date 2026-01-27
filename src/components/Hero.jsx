@@ -1,10 +1,67 @@
+import { motion } from "framer-motion";
+
 function Hero() {
-    return ( 
-        <section className="h-[80vh] flex flex-col justify-center items-center bg-gray-100 from-gray-800">
-            <h2 className="text-5xl font-bold mb-4">Welcome to My Website</h2>
-            <p className="text-gray-600 max-w-xl">I build modern, fast, and beautiful web application using React and Javascript .</p>
-        </section>
-        );
+  return (
+    <motion.section
+      initial={{ opacity: 0, y: 60 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      className="min-h-[85vh] flex flex-col justify-center items-center text-center px-6 bg-gray-100 dark:bg-gray-900 dark:text-white"
+    >
+      {/* Profile Image */}
+      <motion.img
+        src="/images/profile.jpg"
+        alt="Profile"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.3 }}
+        className="w-32 h-32 rounded-full object-cover mb-6 shadow-lg"
+      />
+
+      {/* Heading */}
+      <motion.h2
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.5 }}
+        className="text-5xl md:text-6xl font-bold mb-6"
+      >
+        Hi, I'm a React Developer 👋
+      </motion.h2>
+
+      {/* Description */}
+      <motion.p
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.8 }}
+        className="max-w-xl text-lg text-gray-600 dark:text-gray-300"
+      >
+        I build modern, fast, and interactive web applications using React and JavaScript.
+      </motion.p>
+
+      {/* Buttons */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1.1 }}
+        className="flex gap-4 mt-8 flex-wrap justify-center"
+      >
+        <a
+          href="/projects"
+          className="px-6 py-3 bg-black text-white rounded-lg hover:scale-105 transition dark:bg-white dark:text-black"
+        >
+          View My Work
+        </a>
+
+        <a
+          href="/resume.pdf"
+          download
+          className="px-6 py-3 border rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+        >
+          Download CV
+        </a>
+      </motion.div>
+    </motion.section>
+  );
 }
 
 export default Hero;
