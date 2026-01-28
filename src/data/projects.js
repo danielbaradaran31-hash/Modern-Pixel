@@ -9,7 +9,7 @@ const projects = [
       },
     {
         title: "E-commerce Store Magic Schuhe",  
-        description: "Magic Shoes is a modern web project built with HTML, CSS, and JavaScript. It features a fully responsive layout, smooth animations, and high‑quality user interactions. The design includes elegant sliders, a modern navigation bar, dynamic UI components, and numerous animations that enhance the overall user experience. Every element has been carefully crafted to be both functional and visually appealing.",
+        description: "Magic Shoes is a modern web project built with HTML, CSS, and JavaScript. It features a fully responsive layout, smooth animations, and high‑quality user interactions. The design includes elegant sliders, a modern navigation bar, dynamic UI components, and numerous animations that enhance the overall user experience.",
         image: "/images/Magic-Schuhe.jpg",
         live:"https://magic-schuhe.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Magic-Schuhe"
