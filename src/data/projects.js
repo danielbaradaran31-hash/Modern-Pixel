@@ -35,6 +35,13 @@ const projects = [
         live:"https://star-cafe-jet.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Star-Cafe",
     },
+
+     { title: "E-commerce Store  MacBook 3D",  
+        description: "MacBook 3D Interactive Showcase An immersive 3D product experience built with React, Three.js, React Three Fiber, and GSAP. This project brings a MacBook Pro to life with smooth animations, dynamic materials, and full user interaction — all rendered directly in the browser.",
+        image: "/images/Appel.png",
+        live:"https://iphone-gsap-app-vsxc.vercel.app/",
+        github:"https://github.com/danielbaradaran31-hash/Iphon_gsap_app",
+    },
 ];
 
 export default projects;
