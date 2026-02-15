@@ -42,6 +42,13 @@ const projects = [
         live:"https://iphone-gsap-app-vsxc.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Iphon_gsap_app",
     },
+
+    { title: "Admin-Dashboard",  
+        description: "Admin-Dashboard mit React+TypeScript+Vite",
+        image: "/images/Dashboard.png",
+        live:"https://dashboard-psi-five-82.vercel.app/",
+        github:"https://github.com/danielbaradaran31-hash/Iphon_gsap_app",
+    },
 ];
 
 export default projects;
