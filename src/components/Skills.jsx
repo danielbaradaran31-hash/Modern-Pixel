@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 const skills = [
   { name: "React", level: 85 },
+  { name: "Next.Js", level: 80 },
   { name: "JavaScript", level: 90 },
   { name: "HTML & CSS", level: 95 },
   { name: "Tailwind CSS", level: 85 },
