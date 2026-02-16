@@ -44,7 +44,7 @@ const projects = [
     },
 
     { title: "Admin-Dashboard",  
-        description: "Admin-Dashboard mit React+TypeScript+Vite ⭐ Allgemeine Seitenstruktur Sidebar mit minimalistischen Icons, Navbar mit Suchleiste und Benachrichtigungen, Stat Cards in Grün/Rot, Chart‑Bereich mit ApexCharts, abelle der neuesten Bestellungen, User‑Activity‑Widget.",
+        description: "Admin‑Dashboard built with React+TypeScript+Vite ⭐ General page structure with a minimalist‑icon sidebar, a navbar with search and notifications, green/red stat cards, an ApexCharts chart section, a latest‑orders table, and a user‑activity widget.",
         image: "/images/Dashboard.png",
         live:"https://dashboard-psi-five-82.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Iphon_gsap_app",
