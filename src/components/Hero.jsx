@@ -35,7 +35,8 @@ function Hero() {
         transition={{ delay: 0.8 }}
         className="max-w-xl text-lg text-gray-600 dark:text-gray-300"
       >
-        I build modern, fast, and interactive web applications using React and JavaScript and Next.js.
+            Frontend Developer specializing in React and Next.js
+             Building scalable and modern web applications
       </motion.p>
 
       {/* Buttons */}
