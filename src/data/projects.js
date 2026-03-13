@@ -7,12 +7,24 @@ const projects = [
     },
     {
        
+        title: "AI-Powered Interview Platform (Full-Stack)",
+        description: "Tech Stack Next.js Full Stack Authentication App: Next.js (App Router, SSR, SSG), TypeScript, Firebase (Authentication, Firestore/Realtime Database), Personal Dashboard,VAPI‑powered interview questions, Track past interview sessions, progress, and saved results",
+        image: "/images/Portfolio.jpg",
+        live:"https://interview-platform-4obb.vercel.app/",
+        github:"https://github.com/danielbaradaran31-hash/Interview-Platform"
+      },
+        {
+       
         title: "Portfolio Macbook",
         description: "💻 MacBook Portfolio A unique portfolio project that works like a virtual MacBook — complete with windows, a dock, a Finder, and interactive apps. Instead of a traditional portfolio website, you get an immersive desktop‑style experience.",
         image: "/images/Portfolio.jpg",
         live:"https://portfolio-wine-beta-64.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Portfolio-Macbook"
       },
+
+
+
+
     {
         title: "E-commerce Store Magic Schuhe",  
         description: "Magic Shoes is a modern web project built with HTML, CSS, and JavaScript. It features a fully responsive layout, smooth animations, and high‑quality user interactions. The design includes elegant sliders, a modern navigation bar, dynamic UI components, and numerous animations that enhance the overall user experience.",
