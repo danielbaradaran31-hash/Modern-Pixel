@@ -13,18 +13,23 @@ const projects = [
         live:"https://interview-platform-4obb.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Interview-Platform"
       },
+      {
+       
+        title: "AI-Powered Signalist (Full-Stack)",
+        description: "Real‑Time Stock Market Insights & AI‑Powered Watchlists Signalist is a modern, high‑performance stock market analytics platform built with Next.js 14, BetterAuth, MongoDB, Finnhub, Gemini AI, and Inngest. It provides real‑time stock data, personalized watchlists, AI‑generated insights, and automated background jobs — all deployed on Vercel",
+        image: "/images/Signalis.png",
+        live:"https://www.viewsignal.space/",
+        github:"https://github.com/danielbaradaran31-hash/view-signal"
+      },
         {
        
         title: "Portfolio Macbook",
-        description: "💻 MacBook Portfolio A unique portfolio project that works like a virtual MacBook — complete with windows, a dock, a Finder, and interactive apps. Instead of a traditional portfolio website, you get an immersive desktop‑style experience.",
+        description: "💻 MacBook Portfolio A unique portfolio project that works like a virtual MacBook — complete with windows, a dock, a Finder, and interactive apps. Instead of a traditional portfolio website, you get an immersive desktop‑style experience.                ",
         image: "/images/Portfolio.jpg",
         live:"https://portfolio-wine-beta-64.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Portfolio-Macbook"
       },
-
-
-
-
+      
     {
         title: "E-commerce Store Magic Schuhe",  
         description: "Magic Shoes is a modern web project built with HTML, CSS, and JavaScript. It features a fully responsive layout, smooth animations, and high‑quality user interactions. The design includes elegant sliders, a modern navigation bar, dynamic UI components, and numerous animations that enhance the overall user experience.",
@@ -56,7 +61,7 @@ const projects = [
     },
 
     { title: "Admin-Dashboard",  
-        description: "Admin‑Dashboard built with React+TypeScript+Vite ⭐ General page structure with a minimalist‑icon sidebar, a navbar with search and notifications, green/red stat cards, an ApexCharts chart section, a latest‑orders table, and a user‑activity widget.",
+        description: "Admin‑Dashboard built with React+TypeScript+Vite ⭐ General page structure with a minimalist‑icon sidebar, a navbar with search and notifications, green/red stat cards, an ApexCharts chart section, a latest‑orders table, and a user‑activity widget.         ",
         image: "/images/Dashboard.png",
         live:"https://dashboard-psi-five-82.vercel.app/",
         github:"https://github.com/danielbaradaran31-hash/Iphon_gsap_app",
